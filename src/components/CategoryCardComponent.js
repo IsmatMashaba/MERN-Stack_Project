@@ -9,8 +9,8 @@ const CategoryCardComponent = ({ category, idx }) => {
     "/images/tablets-category.png",
     "/images/tablets-category.png",
     "/images/tablets-category.png",
-    "/images/monitors-category.png",
-    "/images/games-category.png",
+    "/images/tablets-category.png",
+    "/images/tablets-category.png",
   ];
   return (
     <Card>
