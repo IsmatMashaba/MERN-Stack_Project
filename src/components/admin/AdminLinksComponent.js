@@ -17,9 +17,6 @@ const AdminLinksComponent = () => {
         <LinkContainer to="/admin/chats">
           <Nav.Link>Chats</Nav.Link>
         </LinkContainer>
-        <LinkContainer to="/admin/analytics">
-          <Nav.Link>Analytics</Nav.Link>
-        </LinkContainer>
         <Nav.Link>Logout</Nav.Link>
       </Nav>
     </Navbar>

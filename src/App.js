@@ -31,7 +31,7 @@ import AdminEditUserPage from './pages/admin/AdminEditUserPage';
 import AdminEditProductPage from './pages/admin/AdminEditProductPage';
 import AdminCreateProductPage from './pages/admin/AdminCreateProductPage';
 import AdminChatsPage from './pages/admin/AdminChatsPage';
-import AdminAnalyticsPage from './pages/admin/AdminAnalyticsPage';
+
 
 import ScrollToTop from './utils/ScrollToTop';
 
@@ -84,7 +84,7 @@ function App() {
             element={<AdminOrderDetailsPage />}
           />
           <Route path="/admin/chats" element={<AdminChatsPage />} />
-          <Route path="/admin/analytics" element={<AdminAnalyticsPage />} />
+          
         </Route>
       </Routes>
       <FooterComponent />
